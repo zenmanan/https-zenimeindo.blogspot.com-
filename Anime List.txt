@@ -1,0 +1,222 @@
+<style>
+/* CSS By Arleth98 */
+.listanim-wrapper{max-width:1060px;margin:auto}
+.abjad{margin: 0 15px;
+    margin-bottom: 5px;
+    text-align: center;
+margin-top:15px;}
+.abjad a{text-align: center;
+    display: inline-block;
+    background: #eee;
+    padding: 8px 12px!important;
+    margin: 2px;
+    color: #333;
+    border-radius: 3px;}
+.abjad a:hover{background:#0c70de!important;color:#fff}
+.clear{clear:both}
+.grup-judul{display: block;
+    padding: 0 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ececec;;}
+.grup ul{    margin: 0;
+    overflow: hidden;
+    color: #ddd;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: unset;}
+.grup ul li{width: 47%;
+    float: left;
+    line-height: 20px;
+    margin-bottom: 3px;
+    margin-left: 15px;}
+@media screen and (max-width:900px){.grup ul li{width:100%;float:none;clear:both;}.abjad a{}}
+#main-wrapper{width:100%!important}
+#widget-kanan{display:none!important}
+</style>
+
+<div class='listanim-wrapper'>
+
+<script type="text/javascript">
+var numposts = 999;
+var standardstyling = true;
+function showrecentposts(json) { for (var i = 0; i < numposts; i++) { 
+var entry = json.feed.entry[i]; 
+var posttitle = entry.title.$t; 
+var posturl; if (i == json.feed.entry.length) break; 
+for (var k = 0; k < entry.link.length; k++) { 
+if (entry.link[k].rel == 'alternate') { posturl = entry.link[k].href; break; }} posttitle = posttitle.link(posturl); 
+if (standardstyling) document.write('<li>'); document.write(posttitle);} if (standardstyling) document.write('</li>'); } 
+</script>
+<div class='bixbox'>
+<h2 class='heading'>Anime List</h2>
+<div class='abjad'><a href="#0">0</a> <a href="#A">A</a> <a href="#B">B</a> <a href="#C">C</a> <a href="#D">D</a> <a href="#E">E</a> <a href="#F">F</a> <a href="#G">G</a> <a href="#H">H</a> <a href="#I">I</a> <a href="#J">J</a> <a href="#K">K</a> <a href="#L">L</a> <a href="#M">M</a> <a href="#N">N</a> <a href="#O">O</a> <a href="#P">P</a> <a href="#Q">Q</a> <a href="#R">R</a> <a href="#S">S</a> <a href="#T">T</a> <a href="#U">U</a> <a href="#V">V</a> <a href="#W">W</a> <a href="#X">X</a> <a href="#Y">Y</a> <a href="#Z">Z</a><div class="clear"></div>
+</div>
+
+<div class='content-list'>
+
+<div class='grup'><div class='grup-judul'><a name="0">0</a></div>
+<ul>
+<script src="/feeds/posts/default/-/Anime%200?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="A">A</a></div>
+<ul>
+<script src="/feeds/posts/default/-/A?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="B">B</a></div>
+<ul>
+<script src="/feeds/posts/default/-/B?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="C">C</a></div>
+<ul>
+<script src="/feeds/posts/default/-/C?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="D">D</a></div>
+<ul>
+<script src="/feeds/posts/default/-/D?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="E">E</a></div>
+<ul>
+<script src="/feeds/posts/default/-/E?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="F">F</a></div>
+<ul>
+<script src="/feeds/posts/default/-/F?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="G">G</a></div>
+<ul>
+<script src="/feeds/posts/default/-/G?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="H">H</a></div>
+<ul>
+<script src="/feeds/posts/default/-/H?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="I">I</a></div>
+<ul>
+<script src="/feeds/posts/default/-/I?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="J">J</a></div>
+<ul>
+<script src="/feeds/posts/default/-/J?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="K">K</a></div>
+<ul>
+<script src="/feeds/posts/default/-/K?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="L">L</a></div>
+<ul>
+<script src="/feeds/posts/default/-/L?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="M">M</a></div>
+<ul>
+<script src="/feeds/posts/default/-/M?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="N">N</a></div>
+<ul>
+<script src="/feeds/posts/default/-/N?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="O">O</a></div>
+<ul>
+<script src="/feeds/posts/default/-/O?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="P">P</a></div>
+<ul>
+<script src="/feeds/posts/default/-/P?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="Q">Q</a></div>
+<ul>
+<script src="/feeds/posts/default/-/Q?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="R">R</a></div>
+<ul>
+<script src="/feeds/posts/default/-/R?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="S">S</a></div>
+<ul>
+<script src="/feeds/posts/default/-/S?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="T">T</a></div>
+<ul>
+<script src="/feeds/posts/default/-/T?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="U">U</a></div>
+<ul>
+<script src="/feeds/posts/default/-/U?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="V">V</a></div>
+<ul>
+<script src="/feeds/posts/default/-/V?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="W">W</a></div>
+<ul>
+<script src="/feeds/posts/default/-/W?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="X">X</a></div>
+<ul>
+<script src="/feeds/posts/default/-/X?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="Y">Y</a></div>
+<ul>
+<script src="/feeds/posts/default/-/Y?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+<div class='grup'><div class='grup-judul'><a name="Z">Z</a></div>
+<ul>
+<script src="/feeds/posts/default/-/Z?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=999"></script>
+</ul>
+</div>
+
+</div>
+</div>
+</div>

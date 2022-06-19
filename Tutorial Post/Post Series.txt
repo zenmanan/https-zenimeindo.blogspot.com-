@@ -1,0 +1,64 @@
+<!-- [Thumbnail] -->
+<div class="separator" style="clear: both; text-align: center;">
+<img src="GAMBAR" />
+</div>
+
+<!-- [Synopsis] -->
+<div class="bixbox">
+<h2 class="heading">Synopsis</h2>
+<div class="sinoposis">
+SINOPSIS</div>
+</div>
+<span><!--more--></span>
+
+<!-- [Trailer] -->
+<div class="bixbox trailer">
+<div class="ignielYTlazy" data-embed="EMBED">
+  <span class="button"></span>
+</div>
+</div>
+
+<!-- [Box Download] -->
+<div class="bixbox download">
+<h2 class="heading">Download Judul-Anime Batch Subtitle Indonesia</h2>
+<div class="dl" style="margin:15px;">
+<ul>
+<h3>
+Download Batch </h3>
+<li><b>360p</b>
+<a href="LinkDownload" rel="nofollow" target="_blank">Acefile</a>   
+<a href="LinkDownload" rel="nofollow" target="_blank">Google Drive</a>   
+<a href="LinkDownload" rel="nofollow" target="_blank">Files.cx</a>
+<a href="LinkDownload" rel="nofollow" target="_blank">OtakuShare</a>    
+</li>
+
+<li><b>480p</b>  
+<a href="LinkDownload" rel="nofollow" target="_blank">Acefile</a>   
+<a href="LinkDownload" rel="nofollow" target="_blank">Google Drive</a>   
+<a href="LinkDownload" rel="nofollow" target="_blank">Files.cx</a>
+<a href="LinkDownload" rel="nofollow" target="_blank">OtakuShare</a>
+</li>
+
+<li><b>720p</b> 
+<a href="LinkDownload" rel="nofollow" target="_blank">Acefile</a>   
+<a href="LinkDownload" rel="nofollow" target="_blank">Google Drive</a>   
+<a href="LinkDownload" rel="nofollow" target="_blank">Files.cx</a>
+<a href="LinkDownload" rel="nofollow" target="_blank">OtakuShare</a>
+</li>
+</ul>
+</div>
+</div>
+
+<!-- [Episode List] -->
+<div class="bixbox episode">
+<h2 class="heading">Episode List</h2>
+<div class="episodelist" style="margin:15px;">
+<div class="ephead">
+<div class="eps-num">Episode</div>
+<div class="eps-title">Episode Title</div>
+<div class="eps-date">Release Date</div>
+</div>
+<script src='/feeds/posts/default/-/LABEL?orderby=published&amp;alt=json-in-script&amp;callback=post_latest&amp;max-results=999'></script>
+<noscript>Opps, Javascript No Load, Please Reload Again</noscript>
+</div>
+</div>

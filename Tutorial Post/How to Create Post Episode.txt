@@ -1,0 +1,43 @@
+Cara Membuat Post Streaming/Episode
+
+1. Copy semua code yang ada di file "Post Episode.txt"
+2. Buka Blogger, Pilih Menu Posts, Klick New Post
+3. Switch mode Compose menjadi HTML
+4. Paste Semua code yang sudah di copy tadi
+5. Ubah pada bagian "GAMBAR" ganti dengan link gambar kamu (Link Gambar Series)
+6. Ubah pada bagian "EMBED" ganti dengan code embed video, contoh="https://www.youtube.com/embed/wtEUCSPz6Cg" 
+7. Ubah pada bagian "JUDUL" ganti dengan judul animenya, contoh="Haikyuu S3 Episode 1"
+8. Ubah pada bagian "LINK" ganti dengan Link download videonya. untuk server download juga bisa diubah sesuai server yang kamu pakai
+9. Ubah pada bagian "SERVER NAME" ganti dengan nama server streaming video kamu
+
+pada code ini saya hanya menyediakan 2 slot server streaming, jika kamu ingin menggunakan 3 server, kamu bisa menambahkannya sendiri. caranya
+
+1. lihat pada bagian
+<div id="content">
+<div id="tab1"><iframe src="EMBED" frameborder="0" allowfullscreen="yes" width="100%" height="100%"></iframe></div>
+<div id="tab2" style="display: none;"><iframe src="EMBED" frameborder="0" allowfullscreen="yes" width="100%" height="100%"></iframe></div>
+</div>
+ganti dengan
+<div id="content">
+<div id="tab1"><iframe src="EMBED" frameborder="0" allowfullscreen="yes" width="100%" height="100%"></iframe></div>
+<div id="tab2" style="display: none;"><iframe src="EMBED" frameborder="0" allowfullscreen="yes" width="100%" height="100%"></iframe></div>
+<div id="tab3" style="display: none;"><iframe src="EMBED" frameborder="0" allowfullscreen="yes" width="100%" height="100%"></iframe></div>
+</div>
+
+2. lihat pada bagian
+<ul id="--tabs">
+<li id="current"><span class="server-multipart server-mr-host">SERVER NAME</span><a href="#tab1" onclick="document.getElementById('tab1').style.display='block';tab2.style.display='none';tab3.style.display='none';">SERVER NAME</a></li>
+<li id=""><span class="server-multipart server-mr-host">SERVER NAME</span><a href="#tab2" onclick="document.getElementById('tab2').style.display='block';tab1.style.display='none';tab3.style.display='none';">SERVER NAME</a></li>
+</ul>
+ganti dengan
+<ul id="--tabs">
+<li id="current"><span class="server-multipart server-mr-host">SERVER NAME 1</span><a href="#tab1" onclick="document.getElementById('tab1').style.display='block';tab2.style.display='none';tab3.style.display='none';">SERVER NAME 1</a></li>
+<li id=""><span class="server-multipart server-mr-host">SERVER NAME 2</span><a href="#tab2" onclick="document.getElementById('tab2').style.display='block';tab1.style.display='none';tab3.style.display='none';">SERVER NAME 2</a></li>
+<li id=""><span class="server-multipart server-mr-host">SERVER NAME 3</span><a href="#tab3" onclick="document.getElementById('tab3').style.display='block';tab1.style.display='none';tab2.style.display='none';">SERVER NAME 3</a></li>
+</ul>
+
+
+Cara Memberi Label Pada Post Streaming
+
+cukup beri satu Label untuk post streaming contoh="Haikyuu S3" -- hapus tanda petik
+jangan menambahkan lebih dari satu label karena akan menyebabkan bug pada tampilan

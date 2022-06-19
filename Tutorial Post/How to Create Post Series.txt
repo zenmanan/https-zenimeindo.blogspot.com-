@@ -1,0 +1,26 @@
+Cara Membuat Post Series
+
+1. Copy semua code yang ada di file "Post Series.txt"
+2. Buka Blogger, Pilih Menu Posts, Klick New Post
+3. Switch mode Compose menjadi HTML
+4. Paste Semua code yang sudah di copy tadi
+5. Ubah pada bagian "GAMBAR" ganti dengan link gambar kamu
+6. Ubah pada bagian "SINOPSIS" ganti dengan sinopsis Anime nya
+7. Ubah pada bagian "EMBED" ganti dengan code embed youtube, contoh="https://www.youtube.com/embed/wtEUCSPz6Cg?enablejsapi=1&wmode=opaque&autoplay=1" 
+    "wtEUCSPz6Cg" adalah code embednya
+8. Ubah pada bagian "Judul-Anime" ganti dengan judul animenya
+9. Ubah pada bagian "LinkDownload" ganti dengan Link download videonya. untuk server download juga bisa diubah sesuai server yang kamu pakai
+10. Ubah pada bagian "LABEL" dengan Label Series contoh= "Haikyuu%20S3" . "%20" merupakan pengganti space (spasi) pada javascript. jika hanya menyediakan link download Batch, untuk bagian <!-- [Episode List] --> sampai bawah bisa di hapus
+
+
+Cara Memberi Label Pada Post Series
+
+1. untuk bagian "Type" support dengan Label (TV, Movie, ONA, OVA, Special)
+2. untuk bagian "Status" support dengan Label (Ongoing dan Completed)
+3. untuk bagian "Episode" support dengan Label (Eps. 1, Eps. 2, Eps. 3, Eps. 4, Eps. 5 - Eps. 26)
+4. untuk bagian Genre support semua genre kecuali genre Anime Hentai (seperti Yuri, Yaoi, NTR dll). untuk penulisannya kamu bisa copas dari MyAnimeList
+5. untuk bagian "Sensor" support dengan Label (Censored dan Uncensored)
+6. untuk bagian "Season" support dengan Label ( Fall 2010 - Fall 2020, Spring 2010 - Spring 2020, Summer 2010 - Summer 2020, Winter 2010 - Winter 2020 )
+7. Label "Series" wajib untuk post series
+8. Label skor, penulisan bisa copas dari MyAnimeList . contoh Label = "8.10"  ---- hapus tanda petik
+9. Label Abjad untuk index Anime List. contoh post Haikyuu S3 beri Label = "H"  ---- hapus tanda petik

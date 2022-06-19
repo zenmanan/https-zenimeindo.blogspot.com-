@@ -1,0 +1,63 @@
+<!-- [Thumbnail] -->
+<div class="separator" style="clear: both; text-align: center;">
+<img src="GAMBAR" />
+</div>
+
+<!-- [Streaming] -->
+<div id='box-movie'>
+<div class="bixbox streaming">
+<div class="tvideo" id="plv">
+<div id="content">
+<div id="tab1"><iframe src="https://acefile.co/player/EMBED/" frameborder="0" allowfullscreen="yes" width="100%" height="100%"></iframe></div>
+<div id="tab2" style="display: none;"><iframe src="https://drive.google.com/file/d/EMBED/preview" frameborder="0" allowfullscreen="yes" width="100%" height="100%"></iframe></div>
+</div>
+</div>
+<div class="item video-nav">
+<div class="mobius"> 
+<div class="iconx">
+<div id="perbesar" class="icol expand"><i class="fa fa-expand" aria-hidden="true"></i> <span>Perbesar</span></div>
+<div id="perkecil" class="icol expand"><i class="fa fa-expand" aria-hidden="true"></i> <span>Perkecil</span></div>
+<a class="download" href="#Download"><div class="icol"><i class="fa fa-cloud-download" aria-hidden="true"></i> <span>Download</span></div></a>
+<div class="icol light"><a class="pls" href="javascript:void(0);"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> <span>Turn Off Light</span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Server Video -->
+<div class="bixbox server">
+<h2 class="heading">Select Server Video</h2>
+<ul id="--tabs">
+<li id="current"><span class="server-multipart server-mr-host">Acefile</span><a href="#tab1" onclick="document.getElementById('tab1').style.display='block';tab2.style.display='none';tab3.style.display='none';">Acefile</a></li>
+<li id=""><span class="server-multipart server-mr-host">Google Drive</span><a href="#tab2" onclick="document.getElementById('tab2').style.display='block';tab1.style.display='none';tab3.style.display='none';">Google Drive</a></li>
+</ul>
+</div>
+
+<!-- [Box Download] -->
+<div class="bixbox download" id="Download">
+<h2 class="heading">Box Download</h2>
+<div class="dl" style="margin:15px;">
+<ul>
+<h3>
+Download JUDUL Subtitle Indonesia</h3>
+<li><b>360p</b>
+<a href="LINK" rel="nofollow" target="_blank">Acefile</a>   
+<a href="LINK" rel="nofollow" target="_blank">Google Drive</a>   
+<a href="LINK" rel="nofollow" target="_blank">Files.cx</a>    
+</li>
+
+<li><b>480p</b>  
+<a href="LINK" rel="nofollow" target="_blank">Acefile</a>   
+<a href="LINK" rel="nofollow" target="_blank">Google Drive</a>   
+<a href="LINK" rel="nofollow" target="_blank">Files.cx</a>
+</li>
+
+<li><b>720p</b> 
+<a href="LINK" rel="nofollow" target="_blank">Acefile</a>   
+<a href="LINK" rel="nofollow" target="_blank">Google Drive</a>   
+<a href="LINK" rel="nofollow" target="_blank">Files.cx</a>
+</li>
+</ul>
+</div>
+</div>
